@@ -8,6 +8,12 @@ class Post < ApplicationRecord
   validates :body, length: { minimum: 25 }
 
   def optimized_image(image, x, y)
-    image.variant(revise_to_fill: [x, y]).processed
+    image.variant(resize_to_fill: [x, y]).processed
   end
+
+  self.per_page = 5
+
+  extend FriendlyId
+  friendly_id :title, use: :slugged
+
 end

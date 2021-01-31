@@ -16,3 +16,6 @@ import "bootstrap";
 import "./src/application.scss";
 global.$ = jQuery;import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap'
+
+require("trix")
+require("@rails/actiontext")
