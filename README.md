@@ -1,4 +1,4 @@
-# Blog Application
+# Simple Blog Application
 
 This website is made as part of the odin project curriculum
 
