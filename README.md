@@ -9,9 +9,9 @@ This website is made as part of the odin project curriculum
 <li>Will Paginate</li>
 <li>Friendly Id/li>
 <li>Faker/li>
-<li>Image Processing/li>
-<li>Open URI/li>
-<li>Action Text/li>
+<li>Image Processing</li>
+<li>Open URI</li>
+<li>Action Text</li>
 
 # Live Demo
 
