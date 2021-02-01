@@ -1,0 +1,25 @@
+<div class="box">
+
+<article>
+
+<p>
+
+<strong>
+
+<%= comment.name %>:
+
+</strong>
+
+<%= comment.comment.html_safe %>
+
+</p>
+
+<% if is_admin? %>
+
+<%= link_to "Delete", [comment.post, comment], method: :delete, class: "btn btn-danger", data: { confirm: "Are you sure?"}%>
+
+<% end %>
+
+</article>
+
+</div>
