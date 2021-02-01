@@ -24,7 +24,7 @@
     <div class="jumbotron" style="width:100%">
       <h1 class="display-4">
         <% unless @post.comments.empty?%>
-        <strong> <%= @post.comments.size %></strong> <%= pluralize(@post.comments, "comment")%> 
+         <%= pluralize(@post.comments.size, "comment")%> 
         <% else %>
         No comment for this post
         <% end %>
